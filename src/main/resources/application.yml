@@ -1,0 +1,15 @@
+spring:
+    application:
+        name: registry-server
+
+server:
+    port: 8761
+
+eureka:
+    client:
+        register-with-eureka: false #es para que no haga un autoregistro
+        fetch-registry: false
+
+
+
+
